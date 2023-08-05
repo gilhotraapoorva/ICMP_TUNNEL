@@ -1,7 +1,7 @@
 from scapy.all import *
 
 def handle_icmp_reply(packet):
-    print("apu")
+    print("ap")
     if packet.haslayer(ICMP):
         
         data = packet[ICMP].load.decode('utf-8')
