@@ -17,10 +17,12 @@ The "ICMP Tunnel Data Transfer" project enables secure and covert data transfer 
 
 3.**Run the Server:** On the server virtual machine, open a terminal and navigate to the directory containing _server.py_. Run the following command:
 
-'''sudo python server.py'''
+```sudo python server.py```
 
 4.**Run the Client:** On the client virtual machine, open a terminal and navigate to the directory containing _client.py_. Run the following command:
-'''sudo python client.py'''
+```
+sudo python client.py
+```
 
 5.**Enter File Name:** The client will prompt you to enter a file name. You can provide any desired file name, such as _"f1.txt."_
 
